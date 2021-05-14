@@ -1,1 +1,23 @@
-xxx
+
+Systemové požiadavky: Java 8 (Update 251, 64-bit), Java SE Development Kit 8 (Update 111, 64-bit) 
+
+Najprv odzipujte súbor v prílohe. 
+
+Príklady príkazov (v systéme Windows použite namiesto toho gradlew.bat):
+
+./gradlew -v
+./gradlew assemble
+
+Potvrdenie verzie a kompilácia.
+
+./gradlew player
+  
+V jednom termináli spustíme aplikáciu hráčov, kde intuitívne môžeme pridať konkrétnemu hráčovi určitý port.
+
+./gradlew server
+
+V druhom termináli spustíme aplikáciu servera. Následne vyberieme lokálny repozitár a vyberieme hru, ktorú chceme testovať a pridáme hráčov.
+Kliknutím na tlačidlo $start new match$ začne simulácia zápasu. 
+Pre jednoduchú simuláciu hry len s ľudskou interakciou môžete jednoducho skopírovať pravidlá hry a pridať ich do sekcii $rulesheet$ na stránke: 
+http://ggp.stanford.edu/public/gametester.php 
+Po kliknutí na tlačidlo $initialize$ sa spustí hra.
