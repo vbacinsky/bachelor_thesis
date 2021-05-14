@@ -17,7 +17,7 @@ V jednom termináli spustíme aplikáciu hráčov, kde intuitívne môžeme prid
 ./gradlew server
 
 V druhom termináli spustíme aplikáciu servera. Následne vyberieme lokálny repozitár a vyberieme hru, ktorú chceme testovať a pridáme hráčov.
-Kliknutím na tlačidlo $start new match$ začne simulácia zápasu. 
-Pre jednoduchú simuláciu hry len s ľudskou interakciou môžete jednoducho skopírovať pravidlá hry a pridať ich do sekcii $rulesheet$ na stránke: 
+Kliknutím na tlačidlo start new match začne simulácia zápasu. 
+Pre jednoduchú simuláciu hry len s ľudskou interakciou môžete jednoducho skopírovať pravidlá hry a pridať ich do sekcii rulesheet na stránke: 
 http://ggp.stanford.edu/public/gametester.php 
-Po kliknutí na tlačidlo $initialize$ sa spustí hra.
+Po kliknutí na tlačidlo initialize sa spustí hra.
