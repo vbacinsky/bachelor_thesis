@@ -12,7 +12,7 @@ class SamplePythonGamer(StateMachineGamer):
 
     def getName(self):
         pass
-        
+
     def stateMachineMetaGame(self, timeout):
         pass
 
@@ -20,12 +20,12 @@ class SamplePythonGamer(StateMachineGamer):
         moves = self.getStateMachine().getLegalMoves(self.getCurrentState(), self.getRole())
         selection = random.choice(moves)
         return selection
-        
+
     def stateMachineStop(self):
         pass
-        
+
     def stateMachineAbort(self):
-        pass        
-        
+        pass
+
     def getInitialStateMachine(self):
         return ProverStateMachine()
